@@ -5,7 +5,10 @@
   "main": "server.js",
   "author": "Scotch",
   "dependencies": {
+    "@angular/router": "^0.2.0",
+    "angular": "^1.5.7",
     "angular-bootstrap": "^0.12.2",
+    "angular-resource": "^1.5.7",
     "body-parser": "^1.4.3",
     "bootstrap-sass": "^3.3.6",
     "express": "^4.13.4",
