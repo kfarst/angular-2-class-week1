@@ -11,3 +11,9 @@
 
 * `master` - Initial Angular 1.5 app with *ui-router* and *ngResource*
 * `component-router` - App completely refactored using *components* and the *component router*
+
+### Note about component router
+
+* Installing the ngComponentRouter through npm throws an error in the browser console once the app is run and you navigate to the URL. 
+However, removing the code causing the error allows the app to work with no issues, so a custom version of the router has been included with the app,
+located in `src/support`.
